@@ -6,22 +6,24 @@
 ### 甘特圖
 ``` mermaid
 gantt
-    title 學餐菇蒂飲料訂購
-     dateFormat  YYYY-MM-DD
-    section 分析與設計
-    需求分析與規劃     :done, task1, 2025-10-01, 2d
-    設計系統架構       :done, after task1, 4d
+    title 學餐菇蒂飲料訂購專案甘特圖
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m/%d
 
-    section 系統開發
-    資料庫設計         :done, after task2, 5d
-    前端UI/UX設計與優化 :after task2, 12d
-    會員註冊登入       :after task3, 6d
-    開發飲料清單功能   :after task3, 8d
-    開發客製化選項功能 :after task_5, 10d
-    開發購物車與訂單確認功能 :after task_6, 7d
-    
-    section 測試與文件
-    系統整合測試       :after task4, after task7, after task8, 10d
-    使用者測試         :after task9, 5d
-    文件統整           :after task10, 2d
+    section 分析與設計
+    需求分析與規劃           :done, task1, 2025-10-01, 2025-10-02
+    資料蒐集與彙整           :done, task2, after task1, 4d
+    資料視覺設計             :done, task3, after task2, 3d
+    開發使用者流程與人力排程 :done, task4, after task2, 5d
+    開發線框圖與互動設計     :active, task5, after task3, 10d
+    開發視覺設計稿           :active, task6, after task5, 10d
+
+    section UIUX與前端
+    開發 UIUX 設計規範       :active, task7, after task6, 5d
+    前端開發                 :active, task8, after task6, 15d
+
+    section 測試與驗收
+    系統整合測試             :active, task9, after task7, 10d
+    使用者測試               :active, task10, after task9, 5d
+    文件編寫與驗收           :active, task11, after task10, 5d
 ```
