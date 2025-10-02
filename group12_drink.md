@@ -6,8 +6,8 @@
 ### 甘特圖
 ``` mermaid
 gantt
-    title 學餐菇蒂飲料訂購專案時程
-    dateFormat  YYYY-MM-DD
+    title 學餐菇蒂飲料訂購
+     dateFormat  YYYY-MM-DD
     section 分析與設計
     需求分析與規劃     :done, task1, 2025-10-01, 2d
     設計系統架構       :done, after task1, 4d
