@@ -3,7 +3,6 @@
 ![使用範例圖]()
 ```mermaid
 %%{init: {'theme': 'default'}}%%
-%%{init: {'theme': 'default'}}%%
 graph TD
 
     %% 角色
