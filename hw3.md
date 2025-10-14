@@ -60,8 +60,6 @@ graph TD
     UC5 -.觸發通知.-> UC10
     UC6 -.觸發通知.-> UC10
 
-    %% 樣式設定
-    classDef actor fill:#fff3c4,stroke:#c2a83e,stroke-width:1px;
-    classDef system fill:#d7b6f6,stroke:#a678d3,stroke-width:2px,color:#000,font-weight:bold;
+   
 
 ```
