@@ -1,7 +1,8 @@
 
 ### 使用案例圖
 ![使用範例圖]()
-```
+```mermaid
+%%{init: {'theme': 'default'}}%%
 graph TD
     A[學餐飲料訂購系統]
 
