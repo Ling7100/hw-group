@@ -13,21 +13,19 @@ graph TD
 
     %% 學生使用案例
     U1 --> S1[瀏覽餐飲品項]
-    U1 --> S2[建立訂單]
-    U1 --> S3[付款與取消訂單]
-    U1 --> S4[查看訂單狀態]
-    U1 --> S5[領取訂單通知]
+    U1 --> S2[建立與提交訂單]
+    U1 --> S3[查看訂單狀態]
+    U1 --> S4[取消或修改訂單]
 
     %% 店家使用案例
-    U2 --> S6[管理菜單與價格]
-    U2 --> S7[接收與確認訂單]
-    U2 --> S8[更新製作進度]
-    U2 --> S9[設定取餐時間與通知]
+    U2 --> S5[接收與確認訂單]
+    U2 --> S6[更新餐點製作進度]
+    U2 --> S7[管理菜單與價格]
 
     %% 管理員使用案例
-    U3 --> S10[帳號與權限管理]
-    U3 --> S11[公告與系統維護]
-    U3 --> S12[訂單與營收統計]
+    U3 --> S8[帳號與權限管理]
+    U3 --> S9[系統公告與維護]
+    U3 --> S10[訂單與銷售統計]
 
     %% 系統核心
     A --- S1
@@ -40,8 +38,6 @@ graph TD
     A --- S8
     A --- S9
     A --- S10
-    A --- S11
-    A --- S12
 
     %% 節點配色
     style A fill:#d7b6f6,stroke:#a678d3,stroke-width:2px,color:#000,font-weight:bold
@@ -60,6 +56,5 @@ graph TD
     style S8 fill:#ffffff,stroke:#bcbcbc
     style S9 fill:#ffffff,stroke:#bcbcbc
     style S10 fill:#ffffff,stroke:#bcbcbc
-    style S11 fill:#ffffff,stroke:#bcbcbc
-    style S12 fill:#ffffff,stroke:#bcbcbc
+
 ```
