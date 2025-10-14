@@ -1,6 +1,7 @@
 
 ### 使用案例圖
 ![使用範例圖]()
+```
 graph TD
     A[學餐飲料訂購系統]
 
@@ -60,3 +61,4 @@ graph TD
     style S10 fill:#ffffff,stroke:#bcbcbc
     style S11 fill:#ffffff,stroke:#bcbcbc
     style S12 fill:#ffffff,stroke:#bcbcbc
+```
