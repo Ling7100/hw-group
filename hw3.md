@@ -1,6 +1,5 @@
 
 ### 使用案例圖
-![使用範例圖]()
 ```mermaid
 %%{init: {'theme': 'default'}}%%
 graph TD
