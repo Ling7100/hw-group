@@ -1,4 +1,4 @@
-![login](login.png "login")
+![Register](Register.png "Register")
 
 ## 輸入欄位資料型態與驗證規則
 
