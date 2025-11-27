@@ -44,9 +44,9 @@ erDiagram
     }
 
     %% 關係定義
-    Users ||--o{ Orders : "下訂單 (1:M)"
+    Users ||--o{ Orders : "下訂單"
     
-    Orders ||--|{ OrderDetail : "包含細項 (1:M)"
-    MenuItem ||--o{ OrderDetail : "被包含於 (1:M)"
+    Orders ||--|{ OrderDetail : "包含細項"
+    MenuItem ||--o{ OrderDetail : "被包含於"
     
-    OrderDetail ||--|| Customization : "客製化細節 (1:1)"
+    OrderDetail ||--|| Customization : "客製化細節"
